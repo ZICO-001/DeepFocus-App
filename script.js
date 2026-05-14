@@ -90,12 +90,3 @@ const showTask = () => {
 showTask();
 saveData();
 updateTaskCount();
-
-//
-const fruits = ["apple", "fish", "pineapple", "lime"];
-const fruit = fruits.unshift("h");
-console.log(fruits);
-
-const arrString = '["Apple", "Banana"]';
-const arr = JSON.parse(arrString);
-console.log(arr[0]); // Output: Apple
